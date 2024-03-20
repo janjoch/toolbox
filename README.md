@@ -1,3 +1,6 @@
+***Deprecation warning***: The plotting functionality of the toolbox package was branched off into [interplot](github.com/janjoch/interplot), where it received major updates.
+
+
 # toolbox
 Janosch's small Python code snippets making life a bit easier.
 
