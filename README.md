@@ -1,4 +1,4 @@
-***Deprecation warning***: The plotting functionality `toolbox.plot` of the toolbox package was branched off into [interplot](https://github.com/janjoch/interplot), where it received major updates.
+***Deprecation warning***: The plotting functionality `toolbox.plot` of the `toolbox` package was branched off into [interplot](https://github.com/janjoch/interplot) for publication on PyPi (including `toolbox.arraytools` and `toolbox.iter`.) For reasons of backwards-compatibility, these are still imported into the `toolbox` namespace upon importing `toolbox`.
 
 
 # toolbox
@@ -8,7 +8,9 @@ Janosch's small Python code snippets making life a bit easier.
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Docs
-See [toolbox.janjo.ch](https://toolbox.janjo.ch) for the documentation.
+Check out the interplot documentation: [interplot.janjo.ch](https://interplot.janjo.ch)
+
+*[toolbox.janjo.ch](https://toolbox.janjo.ch) (deprecated)*
 
 ## Demo
 View on NBViewer: [![NBViewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/janjoch/toolbox/tree/main/demo/)
