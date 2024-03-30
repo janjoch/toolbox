@@ -1,4 +1,4 @@
-***Deprecation warning***: The plotting functionality `toolbox.plot` of the toolbox package was branched off into [interplot](https://github.com/janjoch/interplot) for publication on PyPi ( including with `toolbox.arraytools` and `toolbox.iter`.) For reasons of backwards-compatibility, these are still imported into the `toolbox` namespace upon importing `toolbox`.
+***Deprecation warning***: The plotting functionality `toolbox.plot` of the `toolbox` package was branched off into [interplot](https://github.com/janjoch/interplot) for publication on PyPi (including `toolbox.arraytools` and `toolbox.iter`.) For reasons of backwards-compatibility, these are still imported into the `toolbox` namespace upon importing `toolbox`.
 
 
 # toolbox
