@@ -6,6 +6,7 @@ __all__ = [  # noqa F405
     "accelerate",
     "arraytools",
     "color",
+    "conf",
     "convert",
     "datetimeparser",
     "gauss",
@@ -15,7 +16,7 @@ __all__ = [  # noqa F405
 
 from . import *  # noqa F403
 
-from interplot import plot, iter, arraytools
+from interplot import plot, iter, arraytools, conf
 
 try:  # try except because of sphinx build --> DistributionNotFound Error
     __version__ = pkg_resources.get_distribution("toolbox").version
